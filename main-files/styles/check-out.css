@@ -1,0 +1,1194 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 150.5rem;
+}.check-out-mk5 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.check-out-mk5 .auto-group-xtum-Vvy {
+  box-sizing: border-box;
+  padding: 4rem 8.4rem 0rem 10.4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d {
+  margin: 0rem 0rem 3.2rem 0.9rem;
+  width: calc(100% - 0.9rem);
+  height: 5.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .dummy-logo-02-i33 {
+  width: 13.5rem;
+  height: 5.6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .auto-group-w69f-2pR {
+  box-sizing: border-box;
+  padding: 0.1rem 0rem 0.1rem 9.4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .auto-group-w69f-2pR .menu-9PF {
+  margin: 1.1rem 51.6rem 2.3rem 0rem;
+  height: calc(100% - 3.4rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .auto-group-w69f-2pR .menu-9PF .home-521 {
+  margin-right: 3.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .auto-group-w69f-2pR .menu-9PF .destination-AZF {
+  margin-right: 3.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #0f9ae8;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .auto-group-w69f-2pR .menu-9PF .blogs-5gD {
+  margin-right: 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .auto-group-w69f-2pR .menu-9PF .about-us-cRF {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .auto-group-w69f-2pR .action-search-YZo {
+  margin: 0rem 2.4rem 1.4rem 0rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .auto-group-w69f-2pR .sign-up-53w {
+  margin: 0rem 3rem 1.2rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .navbar-18d .auto-group-w69f-2pR .button-PaR {
+  margin-bottom: 1.4rem;
+  width: 9rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #ffffff;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f9ae8;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd {
+  margin: 0rem 4.7rem 2.4rem 0rem;
+  width: calc(100% - 4.7rem);
+  height: 59.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs {
+  margin-right: 5.4rem;
+  box-sizing: border-box;
+  padding: 3.2rem 1.6rem 3.2rem 2.4rem;
+  width: 71.2rem;
+  height: 100%;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .contact-details-fwF {
+  margin-bottom: 2.4rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.012rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .auto-group-kkgm-oGm {
+  margin-bottom: 1.6rem;
+  width: 100%;
+  height: 8.3rem;
+  display: flex;
+  align-items: center;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .auto-group-kkgm-oGm .first-name-95j {
+  margin-right: 3.2rem;
+  width: 32rem;
+  height: 100%;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .auto-group-kkgm-oGm .first-name-95j .first-name-VQV {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .auto-group-kkgm-oGm .first-name-95j .text-field-dFo {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .auto-group-kkgm-oGm .last-name-5tV {
+  width: 32rem;
+  height: 100%;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .auto-group-kkgm-oGm .last-name-5tV .last-name-qcm {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .auto-group-kkgm-oGm .last-name-5tV .text-field-Auw {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .email-address-r25 {
+  margin-bottom: 1.6rem;
+  width: 65.6rem;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .email-address-r25 .email-address-ze5 {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .email-address-r25 .text-field-8VP {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .phone-number-o5j {
+  margin-bottom: 1.6rem;
+  width: 65.6rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .phone-number-o5j .phone-number-jzy {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .phone-number-o5j .text-field-USm {
+  box-sizing: border-box;
+  padding-right: 31.3rem;
+  width: 100%;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .phone-number-o5j .text-field-USm .item-62-DQM {
+  margin-right: 2.1rem;
+  box-sizing: border-box;
+  padding: 1.5rem 0.929rem 1.3rem 0.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/container-hAH.png');
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .phone-number-o5j .text-field-USm .item-62-DQM .item-62-YBj {
+  margin-right: 0.8293rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .phone-number-o5j .text-field-USm .item-62-DQM .chevron-bottom-ry7 {
+  margin-top: 0.0707rem;
+  width: 1.3414rem;
+  height: 0.8121rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .phone-number-o5j .text-field-USm .input-your-phone-number-in-here-a8R {
+  margin-top: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .passport-number--rLq {
+  margin-bottom: 1.6rem;
+  width: 65.6rem;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .passport-number--rLq .auto-group-knpz-1Dj {
+  margin: 0rem 43.2rem 1.5rem 0rem;
+  width: calc(100% - 43.2rem);
+  display: flex;
+  align-items: center;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .passport-number--rLq .auto-group-knpz-1Dj .passport-number-8p9 {
+  margin-right: 0.9rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .passport-number--rLq .auto-group-knpz-1Dj .optional-T5j {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .passport-number--rLq .text-field-nNu {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .address-eR7 {
+  width: 65.6rem;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .address-eR7 .address-QQH {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .contact-details-mqs .address-eR7 .text-field-Loj {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM {
+  box-sizing: border-box;
+  padding: 3.2rem 2.4rem;
+  width: 50.4rem;
+  height: 100%;
+  row-gap: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .booking-information-iJV {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.012rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .destination-rQh {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .destination-rQh .auto-group-yhiz-1YV {
+  margin-bottom: 2.4rem;
+  box-sizing: border-box;
+  padding-top: 0.2rem;
+  width: 100%;
+  background-color: #e7edff;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .destination-rQh .auto-group-yhiz-1YV .image-7-9ub {
+  width: 45.6rem;
+  height: 22rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 0.5rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .destination-rQh .pink-beach-HF7 {
+  margin-bottom: 0.8rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.0072rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .destination-rQh .lombok-indonesia-Ccy {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .date-w4m {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .date-w4m .date-hJq {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .date-w4m .item-14-02-2024-Rkd {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.0072rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .people-xVf {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .people-xVf .people-6Ly {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .auto-group-vfnh-Fcd .booking-information-BpM .people-xVf .adult-d61 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.0072rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 {
+  margin-bottom: 2.4rem;
+  box-sizing: border-box;
+  padding: 3.2rem 1.6rem 3.2rem 2.4rem;
+  width: 71.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-rsed-1sF {
+  margin: 0rem 24.8rem 2.4rem 0rem;
+  width: calc(100% - 24.8rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-rsed-1sF .guest-details-x1o {
+  margin-right: 5rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.012rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-rsed-1sF .same-as-contact-details-GoB {
+  margin-bottom: 0.1rem;
+  box-sizing: border-box;
+  padding: 0.2rem 0rem 0.2rem 0.2rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-rsed-1sF .same-as-contact-details-GoB .checkbox-CRw {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 100%;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-rsed-1sF .same-as-contact-details-GoB .checkbox-CRw .rectangle-outer-MZj {
+  width: 100%;
+  height: 2rem;
+  border: solid 0.2rem #0f9ae8;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-rsed-1sF .same-as-contact-details-GoB .same-as-contact-details-5kd {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-8xwz-owX {
+  margin-bottom: 1.6rem;
+  width: 100%;
+  height: 8.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-8xwz-owX .first-name-x3j {
+  margin-right: 3.2rem;
+  width: 32rem;
+  height: 100%;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-8xwz-owX .first-name-x3j .first-name-JdP {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-8xwz-owX .first-name-x3j .text-field-eBT {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-8xwz-owX .last-name-ih7 {
+  width: 32rem;
+  height: 100%;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-8xwz-owX .last-name-ih7 .last-name-GyX {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .auto-group-8xwz-owX .last-name-ih7 .text-field-oiZ {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .email-address-sTX {
+  margin: 0rem 1.6rem 1.6rem 0rem;
+  width: 65.6rem;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .email-address-sTX .email-address-13w {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .email-address-sTX .text-field-jkd {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .phone-number-RNZ {
+  margin: 0rem 1.6rem 1.6rem 0rem;
+  width: 65.6rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .phone-number-RNZ .phone-number-xdP {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .phone-number-RNZ .text-field-HvZ {
+  box-sizing: border-box;
+  padding-right: 31.3rem;
+  width: 100%;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .phone-number-RNZ .text-field-HvZ .item-62-393 {
+  margin-right: 2.1rem;
+  box-sizing: border-box;
+  padding: 1.5rem 0.929rem 1.3rem 0.8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/container-Ahw.png');
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .phone-number-RNZ .text-field-HvZ .item-62-393 .item-62-mKw {
+  margin-right: 0.8293rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .phone-number-RNZ .text-field-HvZ .item-62-393 .chevron-bottom-5rR {
+  margin-top: 0.0707rem;
+  width: 1.3414rem;
+  height: 0.8121rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .phone-number-RNZ .text-field-HvZ .input-your-phone-number-in-here-CAM {
+  margin-top: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .passport-number--GAD {
+  margin: 0rem 1.6rem 1.6rem 0rem;
+  width: 65.6rem;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .passport-number--GAD .auto-group-jrsm-Bny {
+  margin: 0rem 43.2rem 1.5rem 0rem;
+  width: calc(100% - 43.2rem);
+  display: flex;
+  align-items: center;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .passport-number--GAD .auto-group-jrsm-Bny .passport-number-uys {
+  margin-right: 0.9rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .passport-number--GAD .auto-group-jrsm-Bny .optional-EWM {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .passport-number--GAD .text-field-mWH {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .address-Eem {
+  margin-right: 1.6rem;
+  width: 65.6rem;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .address-Eem .address-nwB {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .guest-details-v57 .address-Eem .text-field-LC1 {
+  box-sizing: border-box;
+  padding: 1.4rem 1.6rem;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #9a9ab0;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  border: solid 0.1rem #e1e1e1;
+  background-color: #fcfcfc;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd {
+  margin-bottom: 3.2rem;
+  width: 71.3rem;
+  height: 33.1rem;
+  position: relative;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .ccntainer-7MB {
+  width: 71.2rem;
+  height: 33.1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.1rem #e1e1e1;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .total-price-ERo {
+  width: 67.8rem;
+  height: 4.7rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 25.2rem;
+  display: flex;
+  align-items: center;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .total-price-ERo .total-price-xsb {
+  margin: 0.1rem 34.8rem 0rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .total-price-ERo .rp-3453560-gHo {
+  text-align: right;
+  font-size: 3.9rem;
+  font-weight: 700;
+  line-height: 1.2000000783;
+  letter-spacing: 0.0195rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .divider-CG9 {
+  width: 66.4rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 22.8rem;
+  background-color: #e1e1e1;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .discount-X3X {
+  width: 68.9rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 17.5rem;
+  display: flex;
+  align-items: center;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .discount-X3X .discount-edw {
+  margin: 0.1rem 56.6rem 0rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .discount-X3X .item-6-yAR {
+  text-align: right;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.0072rem;
+  color: #f04361;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .tax-6kq {
+  width: 68.3rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 13rem;
+  display: flex;
+  align-items: center;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .tax-6kq .tax-F7w {
+  margin: 0.1rem 53.8rem 0rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .tax-6kq .rp-75000-y3w {
+  text-align: right;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.0072rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .price-hkd {
+  width: 68.3rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 8.5rem;
+  display: flex;
+  align-items: center;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .price-hkd .price-3Zb {
+  margin: 0.1rem 49.2rem 0rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .price-hkd .rp-3599000-a3j {
+  text-align: right;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.0072rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .price-details-BCd .price-details-6nm {
+  width: 14.5rem;
+  height: 2.9rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 3.2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  letter-spacing: 0.012rem;
+  color: #11142d;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .agreement-Cau {
+  margin: 0rem 91.8rem 4rem 0rem;
+  box-sizing: border-box;
+  padding: 0.2rem 0rem 0.2rem 0.2rem;
+  width: calc(100% - 91.8rem);
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .agreement-Cau .checkbox-5eh {
+  margin-right: 1.8rem;
+  width: 2rem;
+  height: 100%;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .agreement-Cau .checkbox-5eh .rectangle-outer-CzD {
+  width: 100%;
+  height: 2rem;
+  border: solid 0.2rem #0f9ae8;
+  box-sizing: border-box;
+  border-radius: 0.4rem;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .agreement-Cau .i-have-agree-to-the-rules-terms-and-conditions-87B {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-xtum-Vvy .button-2iM {
+  margin-left: 0.2rem;
+  width: 20.6rem;
+  height: 5.6rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2000000477;
+  letter-spacing: 0.008rem;
+  color: #ffffff;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f9ae8;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw {
+  box-sizing: border-box;
+  padding: 9.6rem 18.7rem 5.9rem 10.8rem;
+  width: 100%;
+  height: 46.5rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -0%, #dbe7ef 122.43%);
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .dummy-logo-02-mJZ {
+  margin-bottom: 1.8rem;
+  width: 13.44rem;
+  height: 5.6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj {
+  margin-bottom: 11.2rem;
+  width: 28.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .address-qpD {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .address-qpD .icon-QMX {
+  margin-right: 0.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .address-qpD .b-santa-monica-los-angeles-jeh {
+  margin-top: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .auto-group-lswz-qxd {
+  box-sizing: border-box;
+  padding-top: 1.6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .auto-group-lswz-qxd .phone-number-zqX {
+  margin: 0rem 12rem 1.6rem 0rem;
+  width: calc(100% - 12rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .auto-group-lswz-qxd .phone-number-zqX .icon-vz5 {
+  margin-right: 0.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .auto-group-lswz-qxd .phone-number-zqX .item-1-923-2341-22-5MB {
+  margin-top: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .auto-group-lswz-qxd .email-yhT {
+  margin-right: 3.5rem;
+  width: calc(100% - 3.5rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .auto-group-lswz-qxd .email-yhT .icon-jgd {
+  margin-right: 0.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .group-477-6bj .auto-group-lswz-qxd .email-yhT .contacttanahairstudiocom-Uu7 {
+  margin-top: 0.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.check-out-mk5 .auto-group-uech-Vbw .footer-p8R .tanahair-studio-all-rights-reserved-zMf {
+  margin-left: 88.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.008rem;
+  color: #505050;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
