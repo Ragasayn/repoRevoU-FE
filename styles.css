@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+:root {
+  --primary-color: #3685fb;
+  --primary-color-dark: #2f73d9;
+  --secondary-color: #fafcff;
+  --text-dark: #0d213f;
+  --text-light: #767268;
+  --extra-light: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo img {
+  width: 100px;
+}
+.icon i{
+  font-size: 25px;
+  color: #000;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon i:hover{
+  color: var(--primary-color);
+}
+.tagline-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.tagline-container .box {
+  text-align: center;
+  padding: 20px;
+}
+.tagline-container .box .bx {
+  font-size: 30px;
+  padding: 10px;
+  background: #eeeff1;
+  border-radius: 1rem;
+  color: var(--primary-color);
+}
+.tagline-container .box h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1.4rem 0 0.5rem;
+}
+.tagline-container .box p {
+  font-size: 0.7rem;
+}
+.tagline-container .box .bx:hover, .tagline-container .bx .bx-calendar-check {
+  background: var(--secondary-color);
+  color: gray;
+}
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
+.section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: -1rem;
+}
+
+.section__title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.section__subtitle {
+  font-size: 1rem;
+  color: var(--text-dark);
+  max-width: calc(var(--max-width) / 2);
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--extra-light);
+  background-color: var(--primary-color);
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* nav {
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+nav {
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.nav-scroll {
+  background-color: #f1f1f1; /* Change background color when scrolling */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+/* Add some styles to the content to account for the fixed navbar */
+.content {
+  margin-top: 70px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Styles for the default and scrolled navbar */
+.nav-default {
+  background-color: white;
+}
+
+
+
+.nav__logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 50px;
+  color: var(--text-dark);
+  cursor: pointer;
+}
+
+.nav__logo span {
+  color: var(--primary-color);
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link a {
+  padding: 0 1rem;
+  color: var(--text-dark);
+  transition: 0.3s;
+}
+
+.link a:hover {
+  color: var(--primary-color);
+}
+
+header {
+  background-color: var(--secondary-color);
+}
+
+.header__container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.header__image {
+  position: relative;
+  margin-top: 20px;
+}
+
+.header__image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 0.5rem solid var(--extra-light);
+  border-radius: 2rem;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.header__image img:nth-child(1) {
+  max-width: 350px;
+  transform: translate(-75%, -50%);
+}
+
+.header__image img:nth-child(2) {
+  max-width: 250px;
+  transform: translate(0%, -25%);
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__content > div {
+  max-width: 400px;
+  display: grid;
+  gap: 1rem;
+}
+
+.header__content .sub__header {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.header__content h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 800;
+  color: var(--text-dark);
+}
+
+.header__content .action__btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.trip {
+  background-color: var(--secondary-color);
+}
+
+.trip__container :is(.section__title, .section__subtitle, .view__all) {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.trip__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
+  margin: 4rem 0;
+}
+
+.trip__card {
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.trip__details {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  background-color: var(--extra-light);
+  cursor: pointer;
+}
+
+.rating {
+  color: goldenrod;
+}
+
+.booking__price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price span {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.book__now {
+  padding: 0.5rem 0.7rem;
+  margin-right: 10px;
+  color: var(--primary-color);
+  outline: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 5rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book__now:hover {
+  color: var(--extra-light);
+  background-color: var(--primary-color);
+}
+
+.team{
+  width: 100%;
+  height: 32vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.team h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  margin-bottom: 30px;
+}
+
+.team h1 span{
+  color: var(--primary-color);
+  margin-left: 15px;
+  font-family: mv boli;
+}
+
+.team h1 span::after{
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: var(--primary-color);
+  display: block;
+  position: relative;
+  bottom: 15px;
+}
+
+.team .team_box{
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -5%;
+  grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+}
+
+.team .team_box .profile{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  transition: 0.4s;
+}
+
+.team .team_box .profile:hover{
+  border-radius: 20px;
+  height: 200px;
+}
+
+.team .team_box .profile img{
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  z-index: 2;
+  transition: 0.4s;
+}
+
+.team .team_box .profile:hover img{
+  border-radius: 20px;
+  margin-top: -200px;
+}
+
+.team .team_box .profile .info{
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  transition: 0.4s;
+}
+
+.team .team_box .profile:hover .info{
+  top: 40%;
+}
+
+.team .team_box .profile .info .name{
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: medium;
+}
+
+.team .team_box .profile .info .bio{
+  width: 70%;
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 0 auto 5px auto;
+}
+
+.team .team_box .profile .info .team_icon i{
+  margin: 10px 5px 5px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.team .team_box .profile .info .team_icon i:hover{
+  color: var(--main-color);
+}
+.reviews-container {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 1rem;
+  height: 40vh;
+  padding: 0 3rem;
+  margin-top: -1.5rem;
+}
+.rev-img {
+  width: 70px;
+  height: 70px;
+}
+.rev-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border:  2px solid var(--second-color) ;
+}
+.reviews-container .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  top: -20%;
+  padding: 20px;
+  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+.reviews-container .box h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.5rem;
+}
+.reviews-container .box p {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+.reviews-container .box .stars .bx {
+  color: var(--primary-color);
+}
+.copyright {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eeeff1;
+}
+.social a {
+  color: #444;
+  padding: 10px;
+  font-size: 21px;
+}
+
+@media (width < 1200px) {
+  .header__image img:nth-child(1) {
+    max-width: 300px;
+  }
+
+  .header__image img:nth-child(2) {
+    max-width: 200px;
+  }
+}
+
+@media (width < 900px) {
+  .nav__links {
+    display: none;
+  }
+
+  .header__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header__image {
+    min-height: 500px;
+  }
+
+  .team_box {
+    gap: 2rem;
+    grid-template-columns: repeat(1, 1fr)
+  }
+
+  .trip__grid {
+    grid-template-columns: repeat(2, -2fr);
+  }
+  .reviews-container {
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
+
+@media (width < 600px) {
+  .trip__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .team_box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .reviews-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .copyright {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
