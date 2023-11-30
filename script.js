@@ -1,12 +1,20 @@
 // Get the navbar element
+<<<<<<< HEAD
 const navbar = document.querySelector("nav");
 
 // Get the offset position of the navbar
 const sticky = navbar.offsetTop;
+=======
+var navbar = document.querySelector('nav');
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+>>>>>>> 45c7813fdd3a02290849e2465642f75048f8dc3e
 
 // Function to add or remove the 'nav-scroll' class based on scroll position
 function handleScroll() {
   if (window.pageYOffset > sticky) {
+<<<<<<< HEAD
     navbar.classList.add("nav-scroll");
   } else {
     navbar.classList.remove("nav-scroll");
@@ -60,3 +68,15 @@ function showSuccessMessage() {
     document.getElementById("main-container").style.display = "flex";
   }, 2000);
 }
+=======
+    navbar.classList.add('nav-scroll');
+  } else {
+    navbar.classList.remove('nav-scroll');
+  }
+}
+
+// Attach the handleScroll function to the scroll event
+window.onscroll = function() {
+  handleScroll();
+};
+>>>>>>> 45c7813fdd3a02290849e2465642f75048f8dc3e
