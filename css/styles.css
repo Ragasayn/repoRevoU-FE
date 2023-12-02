@@ -81,6 +81,12 @@
   padding: 3rem 2rem;
 }
 
+.section__containerrr {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 3rem 2rem;
+}
+
 .footer__container {
   max-width: var(--max-width);
   margin: auto;
@@ -660,6 +666,12 @@ header {
   color: #555;
 }
 
+.form-container span {
+  font-size: 0.7rem;
+  color: red;
+  font-weight: 500;
+}
+
 .icon-container {
   display: flex;
   align-items: center;
@@ -790,7 +802,6 @@ button {
   background-color: var(--primary-color);
 }
 
-
 .payment-method label {
   display: flex;
 }
@@ -897,7 +908,7 @@ button {
   }
 }
 
-@media (width < 650px) {
+@media (width < 750px) {
   .section__containerr {
     max-width: var(--max-width);
     margin: auto;
@@ -905,13 +916,15 @@ button {
   }
 }
 
-@media (width < 500px) {
+@media (width < 695px) {
   .section__containerr {
     max-width: var(--max-width);
     margin: auto;
-    padding: 26rem 4rem 2rem;
+    padding: 28rem 4rem 2rem;
   }
+}
 
+@media (width < 690px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -931,7 +944,7 @@ button {
   }
 }
 
-@media (width < 455px) {
+@media (width < 469px) {
   .section__containerr {
     max-width: var(--max-width);
     margin: auto;
@@ -987,6 +1000,14 @@ button {
   }
 }
 
+@media only screen and (max-width: 690px) {
+  .section__containerrr {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 19rem 4rem 2rem;
+  }
+}
+
 @media screen and (max-width: 991.98px) {
   nav .menu ul {
     display: none;
@@ -1039,7 +1060,7 @@ button {
     position: absolute;
     right: 0;
     top: 0;
-    width: 80%;
+    width: 50%;
     height: 100vh;
     justify-content: space-evenly;
     flex-direction: column;
@@ -1098,10 +1119,6 @@ button {
     padding: 15px; /* Menyesuaikan padding */
   }
 
-  .section__container {
-    padding: 2rem; /* Menyesuaikan padding pada container utama, container lainnya bisa diatur sesuai kebutuhan */
-  }
-
   .nav__logo {
     margin-left: 20px; /* Menyesuaikan margin pada logo */
   }
@@ -1113,10 +1130,6 @@ button {
   .menu-toggle {
     display: flex; /* Tampilkan tombol hamburger menu */
   }
-
-  /* .section__header {
-    gap: 1rem; /* Menyesuaikan jarak pada section header */
-  /* } */
 
   .header__container {
     grid-template-columns: 1fr; /* Mengatur ulang jumlah kolom pada header container */
@@ -1160,5 +1173,21 @@ button {
     max-width: 100%;
     height: auto; /* Menyesuaikan tinggi agar proporsi gambar tetap terjaga */
     transform: translate(-50%, -50%) scale(-10); /* Menyesuaikan posisi dan skala gambar untuk layar mobile */
+  }
+
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 50vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeff1;
+    z-index: -1;
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0;
   }
 }
