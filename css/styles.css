@@ -488,7 +488,7 @@ header {
 }
 
 .team .team_box .profile:hover {
-  border-radius: 20px;
+  border-radius: 25px;
   height: 200px;
 }
 
@@ -499,7 +499,7 @@ header {
   object-position: center;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   z-index: 2;
   transition: 0.4s;
 }
@@ -527,7 +527,7 @@ header {
 }
 
 .team .team_box .profile .info .bio {
-  width: 70%;
+  width: 78%;
   font-size: 0.7rem;
   text-align: center;
   margin: 0 auto 5px auto;
