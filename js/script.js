@@ -1,4 +1,6 @@
+const API_BASE_URL = 'https://be-2-section-bandung-group-5-production.up.railway.app'
 // Get the navbar element
+
 const navbar = document.querySelector("nav");
 
 // Get the offset position of the navbar
