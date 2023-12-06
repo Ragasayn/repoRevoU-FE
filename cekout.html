@@ -14,6 +14,7 @@
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/s" href="image/icon.svg" />
     <title>LungGo | Check Out</title>
   </head>
 
@@ -43,19 +44,19 @@
           <div class="BI-img">
             <img src="image/PinkBeach.png" alt="" />
           </div>
-          <h2>Pink Beach</h2>
-          <h3>Lombok, Indonesia</h3>
+          <h2 id= "name_destination">Pink Beach</h2>
+          <h3 id= "location">Lombok, Indonesia</h3>
           <div class="form-container">
-            <form action="#">
+            <form action="invoice.html" method="get">
               <h2>Date</h2>
-              <input type="date" placeholder="DD/MM/YYYY" />
+              <input type="date" id= "date" placeholder="DD/MM/YYYY" />
             </form>
           </div>
           <div class="form-container">
             <form action="#">
               <h2>People</h2>
               <div class="DROPDOWN">
-                <select id="jumlahTiket" class="drod">
+                <select id="people" class="drod">
                   <option value="1">1 Adult</option>
                   <option value="2">2 Adult</option>
                   <option value="3">3 Adult</option>
@@ -82,19 +83,19 @@
           <div class="form-container">
             <form action="invoice.html" method="get">
               <h2>Full Name</h2>
-              <input type="text" placeholder="Enter Full Name" />
+              <input type="text" id= "name" placeholder="Enter Full Name" />
            
               <h2>Email Address</h2>
-              <input type="email" placeholder="Enter email adress" />
+              <input type="email" id= "email" placeholder="Enter email adress" />
            
               <h2>Phone Number</h2>
-              <input type="number" placeholder="Enter Phone Number" />
+              <input type="number" id= "phone" placeholder="Enter Phone Number" />
             
               <h2>Address</h2>
-              <input type="text" placeholder="Enter Adress" />
+              <input type="text" id= "address" placeholder="Enter Adress" />
             
               <h2>Office Address <span>*optional</span></h2>
-              <input type="text" placeholder="Enter Office Adress" />
+              <input type="text" id= "address_office" placeholder="Enter Office Adress" />
 
               <button type="submit" value="Payment">Payment</button>
             </form>
@@ -146,7 +147,7 @@
           <h1>Price Details</h1>
           <div class="price">
             <h2>Price</h2>
-            <p>Rp 3.599.000</p>
+            <p id= "price">Rp 3.599.000</p>
           </div>
           <div class="tax">
             <h2>Tax</h2>
@@ -158,7 +159,7 @@
           </div>
           <div class="total">
             <h2>Total</h2>
-            <p>Rp 3.453.560</p>
+            <p id= "price_total">Rp 3.453.560</p>
           </div>
         </div>
         <div class="box">
@@ -184,11 +185,7 @@
               <img src="image/mastercard.png" alt="" />
             </label>
           </div>
-          <div class="content2">
-            <div class="checkbox">
-              <input type="checkbox" name="checkbox" id="checkbox" />
-              <label>I have agree to the rules, Terms and Conditions.</label>
-            </div>
+        
             <button type="submit" value="Payment">Payment</button>
           </div>
         </div>
@@ -206,11 +203,6 @@
       </div>
     </div>
     <script src="js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
-    />
+
   </body>
 </html>
