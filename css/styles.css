@@ -379,6 +379,7 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   overflow: hidden;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  margin: 10px 10px;
 }
 
 .trip__details {
