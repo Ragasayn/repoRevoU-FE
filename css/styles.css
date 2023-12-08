@@ -381,6 +381,9 @@ header {
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
   margin: 10px 10px;
 }
+.trip__card-container{
+  margin: 10px 10px;
+}
 
 .trip__details {
   padding: 1rem;
