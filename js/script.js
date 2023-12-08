@@ -14,12 +14,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.error("No asset ID found in the URL");
   }
 
-  if (window.location.pathname.includes("index.html")) {
+  // if (window.location.pathname.includes("index.html")) {
     await fetchAllAsset();
-  } else if (window.location.pathname.includes("checkout.html")) {
-    await getUser();
-    // Implementasi lain yang mungkin diperlukan di halaman checkout
-  }
+  // } else if (window.location.pathname.includes("checkout.html")) {
+  //   await getUser();
+  //   // Implementasi lain yang mungkin diperlukan di halaman checkout
+  // }
 });
 
 function handleScroll() {
