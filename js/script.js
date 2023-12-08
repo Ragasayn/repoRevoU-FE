@@ -1,5 +1,4 @@
-const API_BASE_URL =
-  "https://be-2-section-bandung-group-5-production.up.railway.app";
+const API_BASE_URL = "https://be-2-section-bandung-group-5-production.up.railway.app";
 const navbar = document.querySelector("nav");
 const sticky = navbar.offsetTop;
 
@@ -60,7 +59,7 @@ const fetchAllAsset = async () => {
 				  <div class="rating"><i class="ri-star-fill"></i> ${asset.rating}</div>
 				  <div class="booking__price">
 					<div class="price"><span>From</span> Rp.${asset.price}</div>
-					<a href="cekout.html?id=${asset}" class="book__now">Book Now</a>
+					<a href="cekout.html?id=${asset.id}" class="book__now">Book Now</a>
 				  </div>
 				</div>
 			`;
