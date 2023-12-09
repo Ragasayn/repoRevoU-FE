@@ -41,7 +41,9 @@
        <div class="BI-container">
         <div class="box">
           <h1>Booking Information</h1>
-          <div class="asset-details"></div>
+          <div class="asset-details">
+            <!-- Asset Data from DB -->
+          </div>
 
           <div class="form-container">
             <form action="invoice.html" method="get">
@@ -78,7 +80,7 @@
             <img src="image/contactdetail.png" alt="" />
           </div>
           <div class="form-container">
-            <form action="invoice.html" method="get">
+            <form action="invoice.html" method="get" id="bookingForm">
               <h2>Full Name</h2>
               <input type="text" id= "name" placeholder="Enter Full Name" />
            
@@ -93,8 +95,8 @@
             
               <h2>Office Address <span>*optional</span></h2>
               <input type="text" id= "address_office" placeholder="Enter Office Adress" />
-
-              <button type="submit" value="Payment">Payment</button>
+              <button type="button" onclick="submitBooking()">Submit Booking</button>
+              
             </form>
           </div>
         </div>
@@ -118,11 +120,12 @@
             <p>-6%</p>
           </div>
           <div class="total">
-            <h2>Total</h2>
-            <p id= "price_total">Rp 3.453.560</p>
+            
           </div>
-        </div>
-        <div class="box">
+         
+        </div> 
+        <button type="submit" value="Payment">Payment</button>
+        <!-- <div class="box">
           <h1>Payment Methods</h1>
           <div class="payment-method">
             <label class="payment-method">
@@ -145,9 +148,8 @@
               <img src="image/mastercard.png" alt="" />
             </label>
           </div>
-        
             <button type="submit" value="Payment">Payment</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

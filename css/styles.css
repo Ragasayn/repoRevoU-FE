@@ -411,6 +411,7 @@ header {
   font-weight: 400;
   font-size: 0.7rem;
   color: var(--primary-color);
+  padding-right: 10px
 }
 
 .price p {
@@ -807,7 +808,7 @@ button {
 }
 
 .payment-method label {
-  display: flex;
+  display:flex;
 }
 
 /* Gaya untuk setiap gambar payment method */
