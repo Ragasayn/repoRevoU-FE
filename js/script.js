@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Memanggil fungsi untuk mendapatkan data aset berdasarkan ID
     await getAssetById(assetId);
   } else {
-    console.error("No asset ID found in the URL");
+    // console.error("No asset ID found in the URL");
   }
   const viewAllButton = document.getElementById("viewAllButton");
 
