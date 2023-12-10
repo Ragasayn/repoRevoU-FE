@@ -48,7 +48,7 @@ document.getElementById("download-pdf").addEventListener("click", () => {
     const location = urlParams.get('location')
     const price = urlParams.get('price')
     // ... retrieve other parameters
-    // const diskon = 0.06*price;
+    const diskon = 0.06*price*people;
     function formatDate(date = new Date()) {
       const year = date.toLocaleString('default', {year: 'numeric'});
       const month = date.toLocaleString('default', {
@@ -64,10 +64,10 @@ document.getElementById("download-pdf").addEventListener("click", () => {
     document.getElementById('invoicePhone').textContent = phone;
     document.getElementById('invoiceAddress').textContent = address;
     document.getElementById('invoiceDate').textContent = formatDate();
-    document.getElementById('invoicePrice').textContent = `${price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} x ${people}`;
+    document.getElementById('invoicePrice').textContent = `Rp.${price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} x ${people}`;
     document.getElementById('invoiceDestination').textContent = destination;
     document.getElementById('invoiceLocation').textContent = location;
-    document.getElementById('invoice-price_total').textContent = `Rp.${price_total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`;
+    document.getElementById('invoice-price_total').textContent = `Rp.${price_total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`
     document.getElementById('invoicePeople').textContent = people; 
     document.getElementById('invoiceDate-1').textContent = date;
     document.getElementById('invoicePrice-based').textContent = `Rp.${price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`;
