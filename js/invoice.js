@@ -35,4 +35,53 @@ document.getElementById("download-pdf").addEventListener("click", () => {
       document.getElementById("main-container").style.display = "flex";
     }, 2000);
   }
-  
+  document.addEventListener('DOMContentLoaded', function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get('name');
+    const email = urlParams.get('email');
+    const phone = urlParams.get('phone');
+    const address = urlParams.get('address');
+    const date = urlParams.get('date')
+    const price_total = urlParams.get('price_total')
+    const destination = urlParams.get('name_destination')
+    const people = urlParams.get('people')
+    const location = urlParams.get('location')
+    const price = urlParams.get('price')
+    // ... retrieve other parameters
+    // const diskon = 0.06*price;
+    function formatDate(date = new Date()) {
+      const year = date.toLocaleString('default', {year: 'numeric'});
+      const month = date.toLocaleString('default', {
+        month: '2-digit',
+      });
+      const day = date.toLocaleString('default', {day: '2-digit'});
+    
+      return [year, month, day].join('-');
+    }
+    // Populate the HTML elements with the received data
+    document.getElementById('invoiceName').textContent = name;
+    document.getElementById('invoiceEmail').textContent = email;
+    document.getElementById('invoicePhone').textContent = phone;
+    document.getElementById('invoiceAddress').textContent = address;
+    document.getElementById('invoiceDate').textContent = formatDate();
+    document.getElementById('invoicePrice').textContent = `${price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} x ${people}`;
+    document.getElementById('invoiceDestination').textContent = destination;
+    document.getElementById('invoiceLocation').textContent = location;
+    document.getElementById('invoice-price_total').textContent = `Rp.${price_total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`;
+    document.getElementById('invoicePeople').textContent = people; 
+    document.getElementById('invoiceDate-1').textContent = date;
+    document.getElementById('invoicePrice-based').textContent = `Rp.${price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`;
+    document.getElementById('invoiceDiscont').textContent = `Rp.${diskon.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`;
+    function invoiceNumber(length) {
+      const characters = '0123456789';
+      let result = '';
+    
+      for (let i = 0; i < length; i++) {
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        result += characters.charAt(randomIndex);
+      }
+    
+      return result;
+    }
+    document.getElementById('invoiceNumber').textContent = `#${invoiceNumber(9)}-007`
+  });

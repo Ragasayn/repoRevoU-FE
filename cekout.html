@@ -44,18 +44,15 @@
           <div class="asset-details">
             <!-- Asset Data from DB -->
           </div>
-
           <div class="form-container">
-            <form action="invoice.html" method="get">
               <h2>Date</h2>
-              <input type="date" id= "date" placeholder="DD/MM/YYYY" />
-            </form>
+              <input type="date" id= "date" placeholder="DD/MM/YYYY" required />
           </div>
           <div class="form-container">
-            <form action="#">
+            <form action="#" onsubmit="return validateForm()">
               <h2>People</h2>
               <div class="DROPDOWN">
-                <select id="people" class="drod">
+                <select id="people" class="drod" required>
                   <option value="1">1 Adult</option>
                   <option value="2">2 Adult</option>
                   <option value="3">3 Adult</option>
@@ -80,24 +77,22 @@
             <img src="image/contactdetail.png" alt="" />
           </div>
           <div class="form-container">
-            <form action="invoice.html" method="get" id="bookingForm">
+            
               <h2>Full Name</h2>
-              <input type="text" id= "name" placeholder="Enter Full Name" />
+              <input type="text" id= "name" placeholder="Enter Full Name" required/>
            
               <h2>Email Address</h2>
-              <input type="email" id= "email" placeholder="Enter email adress" />
+              <input type="text" id= "email" placeholder="Enter email adress" required />
            
               <h2>Phone Number</h2>
-              <input type="number" id= "phone" placeholder="Enter Phone Number" />
+              <input type="text" id= "phone" placeholder="Enter Phone Number" required/>
             
               <h2>Address</h2>
-              <input type="text" id= "address" placeholder="Enter Adress" />
+              <input type="text" id= "address" placeholder="Enter Adress" required/>
             
               <h2>Office Address <span>*optional</span></h2>
-              <input type="text" id= "address_office" placeholder="Enter Office Adress" />
-              <button type="button" onclick="submitBooking()">Submit Booking</button>
-              
-            </form>
+              <input type="text" id= "address_office" placeholder="Enter Office Adress" required/>
+            
           </div>
         </div>
       </div>
@@ -122,9 +117,10 @@
           <div class="total">
             
           </div>
-         
+          <br>
+         <p>Note : The Price is for 1 ticket, but the tax only applies once and does not apply in multiples </p>
         </div> 
-        <button type="submit" value="Payment">Payment</button>
+        <button onclick="submitForm()">Submit Booking</button>
         <!-- <div class="box">
           <h1>Payment Methods</h1>
           <div class="payment-method">
@@ -164,7 +160,7 @@
         <a href="# "><i class="bx bxl-whatsapp"></i></a>
       </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
   
   </body>
 </html>

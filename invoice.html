@@ -16,7 +16,7 @@
     <div id="container-notif">
       <div class="loader-container" id="loader-container">
         <div id="loader"></div>
-        <h2 id="success-message">Payment successful</h2>
+        <h2 id="success-message">Booking Successful</h2>
       </div>
     </div>
 
@@ -26,10 +26,10 @@
         <div class="flex">
           <div class="wrap-title">
             <h1>INVOICE</h1>
-            <p>#27346733-022</p>
+            <p id="invoiceNumber"></p>
           </div>
           <div class="wrap-date">
-            <h2>Invoice Date <span>6 March 2023</span></h2>
+            <h2>Invoice Date <span id="invoiceDate"></span></h2>
             <p>Success</p>
           </div>
         </div>
@@ -39,10 +39,10 @@
           <h2>Customer Info</h2>
           <!-- customer info -->
           <div class="customer-info">
-            <p>Ni Putu Sri Agnita Samyami Wiraputri</p>
-            <p>sriagnita123@gmail.com</p>
-            <p>Jl Nangka Selatan no 17</p>
-            <p>085931241454</p>
+            <p id="invoiceName"></p>
+            <p id="invoiceEmail"></p>
+            <p id="invoiceAddress"></p>
+            <p id="invoicePhone"></p>
           </div>
         </div>
 
@@ -50,7 +50,7 @@
           <table>
             <thead>
               <tr>
-                <th>Description</th>
+                <th>Destination</th>
                 <th class="center">People</th>
                 <th class="center">Date</th>
                 <th class="center">Price</th>
@@ -59,12 +59,12 @@
             <tbody>
               <tr>
                 <td>
-                  <h3>Pink Beach</h3>
-                  <p>Lombok , Indonesia</p>
+                  <h3 id="invoiceDestination"></h3>
+                  <p id="invoiceLocation"></p>
                 </td>
-                <td class="center">1 Adult</td>
-                <td class="center">23/11/2023</td>
-                <td class="center">Rp.3.000.000</td>
+                <td class="center" id="invoicePeople"></td>
+                <td class="center" id="invoiceDate-1"></td>
+                <td class="center" id="invoicePrice-based"></td>
               </tr>
             </tbody>
           </table>
@@ -74,15 +74,15 @@
           <div class="wrap-price">
             <div class="left">
               <h5>Subtotal</h5>
-              <h5>Additional Fee</h5>
-              <h5>Discount (20%)</h5>
+              <h5>Tax</h5>
+              <h5>Discount (6%)</h5>
               <h5>Total</h5>
             </div>
             <div class="right">
-              <h5>Rp.3.000.000</h5>
-              <h5>Rp.30.000</h5>
-              <h5>Rp.500.000</h5>
-              <h5>Rp.2.530.000</h5>
+              <h5 id="invoicePrice"></h5>
+              <h5>Rp.75.000</h5>
+              <h5 id="invoiceDiscont"></h5>
+              <h5 id="invoice-price_total"></h5>
             </div>
           </div>
         </div>
