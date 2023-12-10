@@ -223,8 +223,7 @@ async function addUser() {
   const address_office = document.getElementById("address_office").value;
   const date = document.getElementById("date").value;
   const people = document.getElementById("people").value;
-  const basePrice = parseFloat(
-    document.getElementById("price").textContent.replace(/\D/g, "")
+  const basePrice = parseFloat(document.getElementById("price_total").textContent.replace(/\D/g, "")
   );//harga setelah dapat diskon
 
   // Calculate total price
@@ -275,7 +274,8 @@ async function submitForm() {
     const basedPrice = parseFloat(
       document.getElementById("price").textContent.replace(/\D/g, "")
     );
-    const price_total = basedPrice * people + 75000;
+    const price_total = parseFloat(
+      document.getElementById("price_total").textContent.replace(/\D/g, ""));
     // Construct the URL with query parameters
     const url = `invoice.html?name=${encodeURIComponent(
       name

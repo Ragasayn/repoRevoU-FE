@@ -58,6 +58,8 @@ document.getElementById("download-pdf").addEventListener("click", () => {
     
       return [year, month, day].join('-');
     }
+    const total = price_total*people+75000;
+    console.log(price_total)
     // Populate the HTML elements with the received data
     document.getElementById('invoiceName').textContent = name;
     document.getElementById('invoiceEmail').textContent = email;
@@ -67,7 +69,7 @@ document.getElementById("download-pdf").addEventListener("click", () => {
     document.getElementById('invoicePrice').textContent = `Rp.${price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} x ${people}`;
     document.getElementById('invoiceDestination').textContent = destination;
     document.getElementById('invoiceLocation').textContent = location;
-    document.getElementById('invoice-price_total').textContent = `Rp.${price_total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`
+    document.getElementById('invoice-price_total').textContent = `Rp.${total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`
     document.getElementById('invoicePeople').textContent = people; 
     document.getElementById('invoiceDate-1').textContent = date;
     document.getElementById('invoicePrice-based').textContent = `Rp.${price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}`;
@@ -85,3 +87,8 @@ document.getElementById("download-pdf").addEventListener("click", () => {
     }
     document.getElementById('invoiceNumber').textContent = `#${invoiceNumber(9)}-007`
   });
+  function goBack() {
+    // Menggunakan window.location.href untuk mengarahkan ke halaman index.html
+    window.location.href = "index.html";
+  
+  }
