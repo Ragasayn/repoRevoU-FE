@@ -94,12 +94,12 @@ th {
 .wrap-price {
   border-radius: 10px;
   display: flex;
-  font-size: 20px;
+  font-size: 18px;
   justify-content: space-between;
   gap: 1rem;
   padding: 10px 20px;
   border: 2px solid royalblue;
-  width: 700px;
+  width: 800px;
 }
 
 .wrap-date p {
@@ -190,7 +190,6 @@ th {
   position: relative;
   text-align: center;
   border-radius: 0.45em;
-  
 }
 
 .button::after,
@@ -262,11 +261,14 @@ th {
   align-items: center; /* Posisikan elemen secara vertikal di tengah */
 }
 
+.payment .transfer {
+  padding: 5px;
+}
+
 .image-text-container img {
   margin-right: 15px; /* Jarak antara gambar dan teks */
   width: 10%;
   margin-top: 30px;
-
 }
 
 .transfer h4 {
@@ -277,7 +279,6 @@ th {
   font-size: 1rem;
   font-weight: 500;
   margin-top: 30px;
-
 }
 
 /* Aturan media query untuk layar laptop */
@@ -292,10 +293,6 @@ th {
 
   table {
     font-size: 18px;
-  }
-
-  .wrap-price {
-    width: 450px;
   }
 
   .button {
@@ -313,12 +310,21 @@ th {
     margin: 0 10px;
   }
 
+  .payment .transfer h4 {
+    font-size: 12px;
+  }
+
+  .payment .transfer p {
+    font-size: 9px;
+  }
+
   table {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .wrap-price {
     width: 100%;
+    font-size: 11px;
   }
 
   .button {
@@ -328,6 +334,10 @@ th {
 
 @media only screen and (width < 650px) {
   body {
-    font-size: 11px;
+    font-size: 9px;
+  }
+
+  .payment {
+    font-size: 9px;
   }
 }
