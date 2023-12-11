@@ -96,9 +96,10 @@ th {
   display: flex;
   font-size: 20px;
   justify-content: space-between;
+  gap: 1rem;
   padding: 10px 20px;
   border: 2px solid royalblue;
-  width: 450px;
+  width: 700px;
 }
 
 .wrap-date p {
@@ -254,6 +255,29 @@ th {
 .button:hover:after {
   opacity: 1;
   visibility: visible;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center; /* Posisikan elemen secara vertikal di tengah */
+}
+
+.image-text-container img {
+  margin-right: 15px; /* Jarak antara gambar dan teks */
+  width: 10%;
+  margin-top: 30px;
+
+}
+
+.transfer h4 {
+  font-size: 1.3rem;
+}
+
+.transfer p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 30px;
+
 }
 
 /* Aturan media query untuk layar laptop */
