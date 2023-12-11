@@ -36,6 +36,8 @@
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  margin-left: 3rem;
+  margin-right: 3rem;
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -43,6 +45,7 @@
 .tagline-container .box {
   text-align: center;
   padding: 20px;
+  height: 200px;
 }
 
 .tagline-container .box .bx {
@@ -315,12 +318,12 @@ header {
 }
 
 .header__image img:nth-child(1) {
-  max-width: 350px;
+  max-width: 300px;
   transform: translate(-75%, -50%);
 }
 
 .header__image img:nth-child(2) {
-  max-width: 250px;
+  max-width: 200px;
   transform: translate(0%, -25%);
 }
 
@@ -894,6 +897,7 @@ button {
   .section__containerr {
     max-width: var(--max-width);
     margin: auto;
+    margin-top: 12rem;
     padding: 9rem 4rem 2rem;
   }
 
