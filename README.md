@@ -8,3 +8,5 @@
 - Destinations
 - About Us
 - Reviews
+
+Note : Untuk Halaman dari Website tersebut dikarenakan API-nya yaitu via Railways telah melampui trial, maka tidak memunculkan asset-nya.
